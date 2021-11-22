@@ -28,7 +28,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-/"Versão Jupyter Notebook"
 MANIFEST
 
 # PyInstaller
