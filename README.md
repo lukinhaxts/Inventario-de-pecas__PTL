@@ -48,3 +48,5 @@ Apenas as colunas "Local" e "Codigo 1000" são utilizadas do arquivo, respectiva
 |-------|-------------|--------|----------|
 | RUA A COLUNA 02 GAVETA 03 | 1000989323 | 28 01 1111 |  96,84 |
 | RUA D COLUNA 18 GAVETA 03 | 1000972073 | 28 03 4511 | 138,43 |
+
+\Rightarrow 
