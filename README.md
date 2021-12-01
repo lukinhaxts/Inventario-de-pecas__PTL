@@ -44,9 +44,22 @@ Nome da(s) coluna(s): **Local | Codigo 1000 | Artigo | Metragem**
 Apenas as colunas "Local" e "Codigo 1000" são utilizadas do arquivo, respectivamente renomeadas como "Peças VA" e "Local VA". Exemplo:
 <br/><br/><br/>
 
-| Local | Codigo 1000 | Artigo | Metragem |
-|-------|-------------|--------|----------|
-| RUA A COLUNA 02 GAVETA 03 | 1000989323 | 28 01 1111 |  96,84 |
-| RUA D COLUNA 18 GAVETA 03 | 1000972073 | 28 03 4511 | 138,43 |
+<table>
+<tr><th> Formato do .CSV </th><th> Dados formatados dentro do tratamento </th></tr>
+<tr><td>
+  
+|           Local           | Codigo 1000 |   Artigo   | Metragem |
+|---------------------------|-------------|------------|----------|
+| RUA A COLUNA 02 GAVETA 03 |  1000989323 | 28 01 1111 |   96,84  |
+| RUA D COLUNA 18 GAVETA 03 |  1000972073 | 28 03 4511 |  138,43  |
+
+</td><td>
+
+|  Peças VA  |           Local           |
+|------------|---------------------------|
+| 1000989323 | RUA A COLUNA 02 GAVETA 03 |
+| 1000972073 | RUA D COLUNA 18 GAVETA 03 |
+
+</td></tr> </table>
 
 <img src="https://latex.codecogs.com/png.image?\dpi{150}&space;\bg_white&space;\Rightarrow&space;" title="\bg_white \Rightarrow " />
