@@ -43,6 +43,7 @@ Nome da(s) coluna(s): **Local | Codigo 1000 | Artigo | Metragem**
 <br/>
 Apenas as colunas "Local" e "Codigo 1000" são utilizadas do arquivo, respectivamente renomeadas como "Peças VA" e "Local VA". Exemplo:
 
+<br/>
 | Local | Codigo 1000 | Artigo | Metragem |
 |-------|-------------|--------|----------|
 | RUA A COLUNA 02 GAVETA 03 | 1000989323 | 28 01 1111 |  96,84 |
