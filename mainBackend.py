@@ -35,7 +35,7 @@ def mainBackend(localIni, localFin):
     ## Faz a leitura dos filtros e separa o DataFrame do Virtual Age entre dados dentro e fora do escopo do filtro 
     ##   (dfVAPrimario e dfVASecundario, respectivamente)
 
-    dfVAPrimario, dfVASecundario = defineRangeLocal(dfVA, "RA C01 G01", "RA C01 G02")
+    dfVAPrimario, dfVASecundario = defineRangeLocal(dfVA, localIni, localFin)
 
     ## Transforma os dados da coleta para o mesmo formato do Virtual Age
 
@@ -49,6 +49,10 @@ def mainBackend(localIni, localFin):
     ##   ( Peças com Local Diferente | Peças não Encontradas no Inventário | Peças não Encontradas no Sistema)
 
     PcLD, PnEnI, PnEnS = divideClasses(dfCompair1)
+
+    #print(PcLD)
+    #print(PnEnI)
+    #print(PnEnS)
 
     ## Faz a comparação das peças que não foram encontradas no Virtual Age dentro daquele escopo com o restante das peças de outros locais
 

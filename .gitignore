@@ -138,3 +138,6 @@ dmypy.json
 cython_debug/
 
 output/*.xlsx
+testes/testes_de_codigo/"Testes Python"/"Teste 1 - Inicial"/output/*.xlsx
+testes/testes_de_codigo/"Testes Python"/"Teste 2 - Procura de Peças Bipadas"/output/*.xlsx
+testes/testes_de_codigo/"Testes Python"/"Teste 3 - Divisão do DataFrame do Virtual Age"/output/*.xlsx

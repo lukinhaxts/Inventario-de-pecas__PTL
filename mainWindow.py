@@ -98,7 +98,7 @@ class mainWindow:
         patternFiltro2 = eval("pattern" + rua2)
 
         if((re.fullmatch(patternFiltro1, filter1) == None) or (re.fullmatch(patternFiltro2, filter2) == None)):
-            messagebox.showerror(title = "Filtro Incorreto", message = "Formato Padrão de filtro: \n\n R[A-H] C[01-25] G[01-08] \n\n Exemplos: \n\n RA C13 G02 \n RD C05 G03")
+            messagebox.showerror(title = "Filtro Incorreto", message = "Formato Padrão de filtro: \n\n R[A-H] C[01-50] G[01-08] \n\n Exemplos: \n\n RA C13 G02 \n RD C05 G03")
             validaFiltros = 0
         elif((rua1 > rua2) or ((rua1 == rua2) and (coluna1 > coluna2)) or ((rua1 == rua2) and (coluna1 == coluna2) and (gaveta1 > gaveta2))):
             messagebox.showerror(title = "Filtro Incorreto", message = "O filtro de local de início deve ser menor que o filtro de local final")
